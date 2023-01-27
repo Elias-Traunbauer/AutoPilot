@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.33130.400
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPilot", "AutoPilot.csproj", "{557FBD1A-4258-4903-B4A1-22D7D6C2599D}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SEUtils", "..\SEUtils\SEUtils\SEUtils.shproj", "{61EBA249-19F3-48B6-A25B-A4CEE90168BA}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\SEUtils\SEUtils\SEUtils.projitems*{557fbd1a-4258-4903-b4a1-22d7d6c2599d}*SharedItemsImports = 4
+		..\SEUtils\SEUtils\SEUtils.projitems*{61eba249-19f3-48b6-a25b-a4cee90168ba}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 	EndGlobalSection
